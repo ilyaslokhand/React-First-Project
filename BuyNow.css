@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+.BuyNowcontainor {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(204, 249, 255);
+}
+
+.products {
+  width: 90%;
+  max-width: 750px;
+  display: flex;
+}
+
+.imagegallery {
+  flex-basis: 47%;
+  background: rgb(105, 101, 101);
+  position: relative;
+  transform: scale(1.08);
+  box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagegallery img {
+  padding-top: 100px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.details {
+  flex-basis: 53%;
+  background: #fff;
+  box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+  padding-left: 60px;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #777;
+}
+
+.details h1 {
+  color: #333;
+  font-size: 35px;
+}
+
+.details h2 {
+  color: #555;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.details h3 {
+  color: rgb(160, 160, 252);
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.color-select {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.color-select p {
+  width: 75px;
+}
+
+.color-select span {
+  margin-right: 15px;
+  cursor: pointer;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.color-1 {
+  background: red;
+}
+
+.color-2 {
+  background: black;
+}
+
+.color-3 {
+  background: green;
+}
+
+.color-select input {
+  display: none;
+}
+
+.color-select input:checked + span {
+  transform: scale(0.7);
+  box-shadow: 0px 0px 0px 4px #fff, 0px 0px 0px 6px #000000;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.quantity p {
+  width: 75px;
+}
+
+.quantity input {
+  background: #eee;
+  border: 0;
+  outline: 0;
+  border-radius: 12px;
+  padding: 2px 2px 2px 15px;
+  width: 50px;
+}
+
+form button {
+  background: #553ff0;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px rgba(85, 63, 240, 0.25);
+  padding: 20px;
+}
+
+.controls {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+}
+
+.btn {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #333;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.active1 {
+  background: rgb(62, 142, 254);
+}
